@@ -8,7 +8,6 @@ sheet1 = wb['Sheet1']
 
 for cell_obj in list(sheet1.columns)[1]:
     print(cell_obj.value)
-1111111
 
 cell_obj = list(sheet1.columns)[1]
 print(cell_obj)
