@@ -12,6 +12,7 @@ Sheet = wb.remove(sheet1)
 print(Sheet)
 
 
+
 wb.save('test.xlsx')
 print(glob.glob("*.xlsx")) #拡張子が.xlsxのものを探索
 
